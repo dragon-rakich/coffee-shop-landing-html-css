@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: var(--primary-font), sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
