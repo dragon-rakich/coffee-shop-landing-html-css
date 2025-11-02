@@ -2,9 +2,23 @@
     box-sizing: border-box;
 }
 
-:root {
 
+/* variables */
+:root {
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --yellow-color: #F9C06A;
+    --coffee-color: #603809;
+    --cards-color: #FFF9F1;
+    --cta-color: #1E1E1E;
+    --cards-bg-color:#FFEED8;
+    --cards-stroke-color: #707070;
+    --text-color: #707070;
+    --background-color: #FFFEFC;
+    --primary-font: "Playfair Display";
+    --secondary-font: "Clicker Script";
 }
+/* e: variables */
 
 .container {
     width: 1200px;
