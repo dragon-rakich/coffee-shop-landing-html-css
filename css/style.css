@@ -7,7 +7,7 @@
 :root {
     --white-color: #FFFFFF;
     --black-color: #000000;
-    --yellow-color: #F9C06A;
+    --yellow-color: #F9C06A6B;
     --coffee-color: #603809;
     --cards-color: #FFF9F1;
     --cta-color: #1E1E1E;
@@ -124,4 +124,89 @@ a {
     display: flex;
     gap: 25px;
 }
+/* e: header */
 
+/* section */
+.section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.section__title {
+    font-size: 54px;
+    font-weight: 700;
+    color: var(--coffee-color);
+}
+
+.section__subtitle {
+    font-size: 20px; 
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.section__columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__column {
+
+}
+
+/* nested block section column */
+.column__title {
+
+}
+
+.column__subtitle {
+
+}
+/* e: nested block section column */
+/* e: section */
+
+/* shop section */
+.shop-section {
+
+}
+
+.shop-section .section__columns {
+    gap: 20px;
+}
+
+.shop-section .section__column {
+    background-color: var(--cards-color);
+    border: 1px solid var(--yellow-color);
+
+}
+
+.shop-section .column__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--coffee-color);
+}
+
+.shop-section .column__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cta-color);
+}
+
+.shop-section .column__text {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--coffee-color);
+}
+/* e: shop section */
+
+/* usp section */
+.usp-section {
+
+}
+/* e: usp section */
