@@ -15,7 +15,7 @@
     --cards-stroke-color: #707070;
     --text-color: #707070;
     --background-color: #FFFEFC;
-    
+
     --primary-font: "Playfair Display";
     --secondary-font: "Clicker Script";
 }
@@ -34,3 +34,94 @@ a {
     text-decoration: none;
     display: inline-block;
 }
+
+/* top-bar */
+.top-bar {
+    color: var(--white-color);
+    position: absolute;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar__logo {
+    font-family: var(--secondary-font), sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.top-bar__nav-list {
+    display: flex;
+    gap: 80px;
+}
+
+.top-bar a {
+    color: var(--white-color);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.top-bar__nav-btns {
+    display: flex;
+    gap: 30px;
+}
+
+.top-bar__sign-in {
+    text-decoration: underline;
+}
+
+
+/* e: top-bar */
+
+/* header */
+.header {
+    background: url("../images/coffee_image.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-origin: padding-box;
+    background-size: cover;
+
+    color: var(--white-color);
+    /* position: relative; */
+}
+
+.header .container {
+    min-height: 85vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__wrapper {
+    width: 40%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.header__title {
+    font-family: var(--secondary-font), sans-serif;
+    font-size: 220px;
+    font-weight: 400;
+}
+
+.header__subtitle-top {
+    font-size: 22px;
+}
+
+.header__subtitle-bottom {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.header__buttons {
+    display: flex;
+    gap: 25px;
+}
+
