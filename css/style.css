@@ -129,7 +129,7 @@ a {
 /* section */
 .section {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .section .container {
@@ -149,14 +149,18 @@ a {
     font-size: 20px; 
     line-height: 34px;
     font-weight: 400;
+    color: var(--cards-stroke-color);
 }
 
 .section__columns {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .section__column {
+    background-color: var(--cards-color);
+    background-color: var(--cards-color);
 
 }
 
@@ -177,12 +181,10 @@ a {
 }
 
 .shop-section .section__columns {
-    gap: 20px;
+
 }
 
 .shop-section .section__column {
-    background-color: var(--cards-color);
-    border: 1px solid var(--yellow-color);
 
 }
 
@@ -208,5 +210,9 @@ a {
 /* usp section */
 .usp-section {
 
+}
+
+.usp-section .section__column {
+    width: 25%;
 }
 /* e: usp section */
