@@ -161,7 +161,7 @@ a {
 .section__column {
     background-color: var(--cards-color);
     background-color: var(--cards-color);
-
+    flex-grow: 1;
 }
 
 /* nested block section column */
@@ -213,6 +213,5 @@ a {
 }
 
 .usp-section .section__column {
-    width: 25%;
 }
 /* e: usp section */
