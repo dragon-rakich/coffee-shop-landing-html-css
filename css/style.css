@@ -172,8 +172,49 @@ a {
 .column__subtitle {
 
 }
+
+.column__text {
+
+}
 /* e: nested block section column */
 /* e: section */
+
+/* discover section */
+.discover-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.discover-section .section__column {
+    width: 50%;
+    background-color: var(--white-color);
+    border: none;
+}
+
+.discover-section .column__title {
+    color: var(--coffee-color);
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+.discover-section .column__text {
+    color: var(--cards-stroke-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+
+.discover-section .section__columns div:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+/* e: discover section */
 
 /* shop section */
 .shop-section {
