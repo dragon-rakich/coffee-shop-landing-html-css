@@ -160,8 +160,6 @@ a {
 }
 
 .section__column {
-    background-color: var(--cards-color);
-    border: 1px solid var(--yellow-color);
 }
 
 /* nested block section column */
@@ -188,8 +186,6 @@ a {
 
 .discover-section .section__column {
     width: 50%;
-    background-color: var(--white-color);
-    border: none;
 }
 
 .discover-section .column__title {
@@ -226,7 +222,8 @@ a {
 }
 
 .shop-section .section__column {
-
+    background-color: var(--cards-color);
+    border: 1px solid var(--yellow-color);
 }
 
 .shop-section .column__title {
@@ -254,6 +251,8 @@ a {
 }
 
 .usp-section .section__column {
+    background-color: var(--cards-color);
+    border: 1px solid var(--yellow-color);
     padding: 36px 40px;
     width: 25%;
 }
@@ -291,3 +290,35 @@ a {
     margin-bottom: 35px;
 }
 /* e: usp section */
+
+/* banner section */
+
+/* we use the same styles from direction section */
+/* and now add the differences */
+.banner-section {
+    background-image: url("../images/banner-bg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+
+.banner-section .column__title {
+    margin-top: 90px;
+    color: var(--white-color);
+}
+
+.banner-section .column__text {
+    color: var(--white-color);
+    background-size: contain;
+}
+.banner-section .column__title {
+    margin-bottom: 35px;
+}
+
+.banner-section .column__text {
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+
+/* e: banner section */
