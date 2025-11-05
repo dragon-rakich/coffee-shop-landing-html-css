@@ -7,6 +7,7 @@
 :root {
     --white-color: #FFFFFF;
     --black-color: #000000;
+    --trans-black: #00000057;
     --yellow-color: #F9C06A6B;
     --dark-yellow: #f9c06a;
     --coffee-color: #603809;
@@ -415,5 +416,63 @@ a {
     top: calc(var(--user-img-width)*0.5);
 }
 /* e: nested block feedback-card */
-
 /* e: feedback section */
+
+/* subscribe section */
+.subscribe-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 130px;
+    background-image: url("../images/subscribe-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.subscribe-section .section__title {
+    color: var(--white-color)
+}
+
+.subscribe-section .section__subtitle {
+    color: var(--white-color);
+}
+
+.subscribe-section__form {
+    display: flex;
+    width: 55%;
+    border: 1px solid var(--yellow-color);
+    border-radius: 4px;
+    background-color: var(--white-color);
+}
+/* nested element form */
+.form__email {
+    padding: 16px 20px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.form__email::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--trans-black);
+    position: relative;
+    top: 3px
+}
+
+.form__button {
+    background-color: var(--dark-yellow);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--coffee-color);
+    border: 1px solid var(--dark-yellow);
+    border-radius: 4px;
+    box-shadow: 0px 6px 12px var(--yellow-color);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+/* e: nested element form */
+
+/* e: subscribe section */
