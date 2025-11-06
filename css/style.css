@@ -125,7 +125,7 @@ a {
 }
 
 .header .container {
-    min-height: 85vh;
+    min-height: 95vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
