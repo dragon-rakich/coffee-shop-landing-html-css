@@ -303,6 +303,10 @@ a {
     align-items: center;
 }
 
+.usp-section .section__column:hover {
+    background-color: var(--yellow-color);
+}
+
 .usp-section .section__column img {
     width: 88px;
     height: 88px;
