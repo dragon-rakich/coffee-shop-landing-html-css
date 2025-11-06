@@ -112,7 +112,9 @@ a {
 
 /* header */
 .header {
-    background: url("../images/coffee_image.jpg");
+    background: 
+        linear-gradient(var(--trans-black), var(--trans-black)), /* top layer: transparent black */
+        url("../images/coffee_image.jpg"); /*bottom layer: img*/
     background-repeat: no-repeat;
     background-position: 0% 0%;
     background-origin: padding-box;
@@ -357,7 +359,7 @@ a {
 /* and now add the differences */
 .banner-section {
     background-image: url("../images/banner-bg.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 50px 0;
 }
@@ -376,7 +378,7 @@ a {
 }
 
 .banner-section .column__text {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     width: 70%;
 }
 /* e: banner section */
@@ -469,6 +471,8 @@ a {
 
 .feedback-card__user-img {
     position: relative;
+    width: var(--user-img-width);
+    height: var(--user-img-width);
     top: calc(var(--user-img-width)*0.5);
 }
 /* e: nested block feedback-card */
