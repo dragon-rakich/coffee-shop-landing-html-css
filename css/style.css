@@ -23,6 +23,7 @@
 
     --icon-arrow-ele-width: 82px;
     --user-img-width: 112px;
+    --btn-large-height : 48px;
 }
 /* e: variables */
 
@@ -263,18 +264,27 @@ a {
     font-size: 22px;
     font-weight: 700;
     color: var(--coffee-color);
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .shop-section .column__subtitle {
     font-size: 16px;
     font-weight: 400;
     color: var(--cta-color);
+    margin-bottom: 15px;
 }
 
 .shop-section .column__text {
     font-size: 18px;
     font-weight: 700;
     color: var(--coffee-color);
+    margin-bottom: 15px;
+}
+
+.shop-section .section__column .btn {
+    position: relative;
+    top: calc(var(--btn-large-height)*0.5)
 }
 /* e: shop section */
 
