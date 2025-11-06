@@ -38,6 +38,7 @@ body {
 a {
     text-decoration: none;
     display: inline-block;
+    color: var(--white-color);
 }
 
 /* top-bar */
@@ -66,7 +67,6 @@ a {
 }
 
 .top-bar a {
-    color: var(--white-color);
     font-size: 14px;
     font-weight: 500;
 }
@@ -74,6 +74,7 @@ a {
 .top-bar__nav-btns {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
 .top-bar__sign-in {
@@ -82,6 +83,31 @@ a {
 
 
 /* e: top-bar */
+
+/* button styles */
+.btn {
+    background-color: var(--dark-yellow);
+    color: var(--cta-color);
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn--large {
+    width: 134px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn--small {
+    width: 100px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* e: button styles  */
 
 /* header */
 .header {
@@ -228,6 +254,9 @@ a {
 .shop-section .section__column {
     background-color: var(--cards-color);
     border: 1px solid var(--yellow-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .shop-section .column__title {
@@ -259,6 +288,9 @@ a {
     border: 1px solid var(--yellow-color);
     padding: 36px 40px;
     width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .usp-section .section__column img {
@@ -280,6 +312,12 @@ a {
     font-weight: 400;
 }
 
+.usp__cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .usp__cta-top {
     color: var(--cards-stroke-color);
     font-size: 20px;
@@ -292,6 +330,10 @@ a {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 35px;
+}
+
+.usp__cta .btn .btn--large{
+    margin: 0 auto;
 }
 /* e: usp section */
 
@@ -509,7 +551,7 @@ a {
 .footer__column-title {
     font-size: 26px;
     font-weight: 700;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 .footer__logo {
@@ -521,7 +563,7 @@ a {
 .footer__logo-subtitle {
     font-size: 14px;
     line-height: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .footer__socials {
